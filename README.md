@@ -20,5 +20,18 @@ git 명령어
 #### 7)원격 저장소 연결 확인(상세) - $git remote show origin
 
 #### 8)원격 저장소에 올리기 $git push origin -u master (-u는 최초만 주고 그 다음 부터 생략가능)
-
+***
+***
+***
 # merge 팀프로젝트용
+### 1
+git branch 이름   브랜치만들기
+git switch 이름    해당 브랜치로 이동
+git status 로 확인
+### 2
+#### git switch 메인,마스터    (마스터로 이동)
+#### git merge 브랜치명
+다른파일을 건들였으면 정상적으로 합쳐짐, 같은파일을 수정했을경우 충돌(conflict)이 일어남
+
+
+
